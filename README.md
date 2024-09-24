@@ -7,23 +7,24 @@ Welcome to the **Diabetes Prediction** web app! This app uses machine learning m
 - **Interactive Input Form**: Enter health data such as age, BMI, and blood glucose levels to get real-time predictions.
 - **Real-time Prediction**: Instantly see the model's prediction on whether you are at risk of diabetes.
   
-![App Screenshot](Screenshot 2024-09-24 155640.png)
+![App Screenshot](Screenshotfirst.png)
 
 ## 🚀 How to Run This App Locally
 
 ### 1. Clone this repository
 
 git clone https://github.com/alexekka25/diabetes-prediction-app.git
+
 cd diabetes-prediction-app 
 
 
 ### 2. Install dependencies
 Make sure you have Python 3.7+ installed. Then, install the required packages:
-pip install -r requirements.txt
 
 
 ### 3. Run the app
-To start the Streamlit app, run the following command:
+To start the Streamlit app, run the following command: 
+
 streamlit run app.py
 
 
@@ -33,27 +34,37 @@ The app will automatically open in your default browser.
 # 🔍 How It Works
 
 Input Health Information: Provide details like age, BMI, blood glucose levels, and smoking history in the interactive form.
+
 Model Selection: Select the machine learning model you want to use for prediction (Decision Tree, Random Forest, or ANN).
+
 Prediction: Click on the "Predict Diabetes" button to see whether you're predicted to have diabetes based on the model's output.
 
 ### Input Fields
 **`Gender:`** Select 'Male', 'Female', or 'Other'.
+
 **`Age:`** Enter your age.
+
 **`Hypertension:`** Specify whether you have hypertension (Yes/No).
+
 **`Heart_Disease:`** Specify whether you have heart disease (Yes/No).
+
 **`Smoking_History:`** Choose your smoking history (Never, Former, Current, etc.).
 **`BMI`**: Enter your Body Mass Index (BMI).
+
 **`HbA1c_Level:`** Provide your HbA1c level, a common diabetes metric.
-**`Blood_Glucose_Level:``** Input your current blood glucose level.
+
+**`Blood_Glucose_Level:`** Input your current blood glucose level.
 
 # 🛠️ Model Details
  `DecisionTree:` A simple, interpretable model.
+
 `RandomForest:` A more robust ensemble method that handles variance better.
+
 `ANN(Artificial_Neural_Network):` A deep learning model that learns from data patterns.
 
 # 📸 Screenshots
 
-![App Screenshot](Screenshot 2024-09-24 162131.png)
+![App Screenshot](Screenshotsecond.png)
 
 ### 📊 Model Performance
 After training, the model performances were as follows
@@ -68,21 +79,30 @@ After training, the model performances were as follows
 ### 📦 Files in the Repository
 
 `app.py:` The main file for running the Streamlit web app.
+
 `model_training.py:` The script for training and saving machine learning models.
+
 `requirements.txt:` Lists all necessary dependencies to install.
+
 `README.md:` This file, explaining the project.
+
 `models/:` Folder containing the pre-trained models.
 
 ### ⚙️ Technologies Used
 
 Streamlit: Interactive app framework.
+
 scikit-learn: Machine learning models.
+
 TensorFlow: Used for building the ANN model.
+
 Pandas/Numpy: Data manipulation and preprocessing.
+
 Joblib: Model saving/loading.
 
 ### 👨‍💻 Author
 Your Alex
+
 GitHub: alexekka25
 
 
