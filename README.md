@@ -12,12 +12,12 @@ Welcome to the **Diabetes Prediction** web app! This app uses machine learning m
 ## 🚀 How to Run This App Locally
 
 ### 1. Clone this repository
-```bash
+
 git clone https://github.com/alexekka25/diabetes-prediction-app.git
 cd diabetes-prediction-app 
 
 
-### 2. 2. Install dependencies
+### 2. Install dependencies
 Make sure you have Python 3.7+ installed. Then, install the required packages:
 pip install -r requirements.txt
 
